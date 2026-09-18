@@ -1,0 +1,6 @@
+Sep 18 10:00:01 kali sshd[1012]: Accepted password for root from 192.168.1.50 port 44210
+Sep 18 10:02:15 kali sshd[1045]: Failed password for invalid user admin from 10.0.0.15 port 51122
+Sep 18 10:02:18 kali sshd[1045]: Failed password for invalid user admin from 10.0.0.15 port 51124
+Sep 18 10:02:22 kali sshd[1045]: Failed password for invalid user admin from 10.0.0.15 port 51126
+Sep 18 10:05:00 kali sshd[1102]: Accepted password for user developer from 192.168.1.65 port 38810
+Sep 18 10:10:44 kali sshd[1150]: Failed password for root from 172.16.0.4 port 41200
