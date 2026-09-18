@@ -1,15 +1,22 @@
-# 🧪 Lab 1: Linux CLI Mechanics & Target Incident Investigation
+# Lab 1: Linux Command-Line Fundamentals & Log Analysis
 
-## 📌 Executive Summary
-This repository contains hands-on investigation artifacts and CLI analysis conducted on target environment `target1`. The objective was to perform manual log parsing, network reconnaissance, and threat isolation using native Linux tools (`grep`, `awk`, `sort`, `uniq`) without third-party automation tools.
+## 📌 Overview
+Hands-on laboratory analyzing Linux authentication logs (`auth.log`), filtering security events using Linux core utilities (`grep`, `awk`, `sort`, `uniq`), and automating log auditing via bash scripts.
 
----
+## 🛠️ Key Skills & Tools Used
+* **OS / Environment:** Kali Linux Terminal
+* **Core Utilities:** `grep`, `awk`, `sort`, `uniq`, `cat`, `chmod`
+* **Security Concepts:** SSH Brute Force Detection, Log Aggregation, Shell Automation
 
 ## 📁 Repository Structure
-
 ```text
-/home/shahzaib/lab1/target1/
-├── logs/           # Raw system audit logs and parsed authentication failures
-├── recon/          # Initial target discovery and evidence notes
-├── exploits/       # Analysis scripts and permission test files
-└── challange2/     # Secondary scenario investigation artifacts
+.
+├── assets/             # Screenshots of execution evidence
+│   ├── 01_log_parsing.png
+│   └── 02_script_execution.png
+├── exploits/           # Custom bash audit scripts
+│   └── check.sh
+├── logs/               # Authentication logs & evidence outputs
+│   ├── auth.log
+│   └── root_attemps.txt
+└── README.md           # Lab documentation
